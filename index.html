@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/index.css">
+    <title>Word World</title>
+</head>
+<body>
+    <div class="wrapper">
+        <img class="backgd_img" src="images/backgd.jpg" alt="backgr_img">
+        <header>
+
+            <a href="#" class="logo">Word World</a>
+            <nav>
+                <ul>
+                    <li><a href="#">Main</a></li>
+                    <li><a href="#">Popular</a></li>
+                    <li><a href="#">Books &blacktriangledown;</a>
+                        <ul>
+                            <li><a href="#">Science Fiction</a></li>
+                            <li><a href="#">Fantasy</a></li>
+                            <li><a href="#">Mystery</a></li>
+                            <li><a href="#">Romance</a></li>
+                            <li><a href="#">Adventure</a></li>
+                            <li><a href="#">Horror</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Foreign &blacktriangledown;</a>
+                        <ul>
+                            <li><a href="#">Books in Russian</a></li>
+                            <li><a href="#">Books in Bulgarian</a></li>
+                            <li><a href="#">Books in German</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Discounts</a></li>
+                    <li><a href="#">My account</a></li>z
+                </ul>
+            </nav>
+        </header>
+        <div class="filter">
+            <label class="group_name" for="type_name">Type of books</label>
+            <div class="audiobooks_checkbox">
+                <input type="checkbox" class="custom_checkbox" id="audiobooks" name="bookstype">
+                <label for="audiobooks">AudioBooks</label>
+            </div>
+            <div class="textbooks_checkbox">
+                <input type="checkbox" class="custom_checkbox" id="textbooks" name="bookstype">
+                <label for="textbooks">TextBooks</label>
+            </div>
+
+            <label class="group_name" for="price_discount">Price</label>
+            <div class="discount">
+                <div class="discount_checkbox">
+                    <input type="checkbox" class="custom_checkbox" id="discount" name="discount">
+                    <label for="discount">Discounts only</label>
+                </div>
+                <div class="freebooks_checkbox">
+                    <input type="checkbox" class="custom_checkbox" id="freebooks" name="freebooks">
+                    <label for="freebooks">Free books only</label>
+                </div>
+            </div>
+
+            <div class="price_scale">
+            <label class="group_name" for="books_rating">Rating</label>
+            <div class="highrating_checkbox">
+                <input type="checkbox" class="custom_checkbox" id="rating_h" name="rating">
+                <label for="rating_h">High rating books</label>
+            </div>
+            <div class="middlerating_checkbox">
+                <input type="checkbox" class="custom_checkbox" id="rating_m" name="rating">
+                <label for="rating_m">Middle rating books</label>
+            </div>
+            <div class="low_checkbox">
+                <input type="checkbox" class="custom_checkbox" id="rating_l" name="rating">
+                <label for="rating_l">Low rating books</label>
+            </div>
+            </div>
+        </div>
+
+
+    </div>
+    <script src="./js/index.js"></script>
+</body>
+</html>
